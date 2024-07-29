@@ -16,6 +16,16 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     max-width: 600px; /* Limitar el ancho máximo */
     width: 90%;
+    margin-right: 10px;
+}
+.container2 {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px; /* Limitar el ancho máximo */
+    width: 90%;
 }
 
 h1 {
@@ -44,6 +54,19 @@ button:hover {
 }
 
 #result {
+    margin-top: 20px;
+    text-align: left;
+    max-height: 400px; /* Limitar la altura máxima */
+    overflow-y: auto;  /* Habilitar scroll */
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    word-wrap: break-word; /* Ajustar texto */
+    white-space: pre-wrap; /* Preservar espacios y saltos de línea */
+}
+
+#result2 {
     margin-top: 20px;
     text-align: left;
     max-height: 400px; /* Limitar la altura máxima */
